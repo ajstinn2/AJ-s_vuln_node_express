@@ -7,6 +7,6 @@ app:
   # -- The url of your application to scan --
   host: http://localhost:3000 # (required)
 
-  #adding this to make a commit and kick off workflow
+ 
 
 
