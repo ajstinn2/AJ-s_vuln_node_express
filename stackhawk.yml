@@ -7,7 +7,7 @@ app:
   # -- The url of your application to scan --
   host: http://localhost:3000 # (required)
 
-  # adding this to kick off a scan with new commit
+  #adding this to kick off a scan with new commit
 
  
 
