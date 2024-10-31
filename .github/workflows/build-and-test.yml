@@ -33,5 +33,5 @@ jobs:
         env:
           APP_ID: ${{ secrets.HAWK_APP_ID}}  
       - name: Testing Variables
-        run: echo "$APP_ID , ${{secrets.HAWK_APP_ID}} "
+        run: echo "$env.APP_ID , $secrets.HAWK_APP_ID "
        
