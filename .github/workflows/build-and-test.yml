@@ -8,6 +8,7 @@ on:
 jobs:
   build-and-test:
     name: Build and test
+    environment: Test
     runs-on: ubuntu-20.04
     steps:
       - name: Checkout code
