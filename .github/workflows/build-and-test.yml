@@ -29,5 +29,4 @@ jobs:
           sourceURL: https://download.stackhawk.com/hawk/cli
           version: 3.9.0
           apiKey: ${{ secrets.HAWK_API_KEY }}
-        env:
-          APP_ID: ${{ secrets.HAKW_APP_ID}}
+       
