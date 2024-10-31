@@ -29,7 +29,9 @@ jobs:
           sourceURL: https://download.stackhawk.com/hawk/cli
           version: 3.9.0
           apiKey: ${{ secrets.HAWK_API_KEY }}
-          APP_ID: ${{ env.HAWK_APP_ID}}
+          APP_ID: ${{ secrets.HAWK_APP_ID}}
         env:
-          APP_ID: ${{ env.HAWK_APP_ID}}
+          APP_ID: ${{ secrets.HAWK_APP_ID}}  
+      - name: Testing Variables
+        run: echo "$APP_ID , ${{secrets.HAWK_APP_ID}} "
        
