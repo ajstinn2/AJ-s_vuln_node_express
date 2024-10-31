@@ -1,7 +1,7 @@
 # -- stackhawk configuration for GitHubActions VulnNodeExp --
 app:
   # -- An applicationId obtained from the StackHawk platform. --
-  applicationId: 95e33032-9774-4394-8797-9c0e5d399071 # (required)
+  # applicationId: 95e33032-9774-4394-8797-9c0e5d399071 # (required)
   # -- The environment for the applicationId defined in the StackHawk platform. --
   env: Development # (required)
   # -- The url of your application to scan --
