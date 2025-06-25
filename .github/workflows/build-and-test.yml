@@ -9,7 +9,7 @@ jobs:
   build-and-test:
     name: Build and test
     environment: Test
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-25.04
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
